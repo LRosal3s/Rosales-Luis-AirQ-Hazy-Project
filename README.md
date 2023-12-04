@@ -13,6 +13,7 @@ Data Quality Assessment: The data quality is assessed by checking for completene
 Data Transformation Models use: The project employs data transformations to handle missing values and scale features using MinMaxScaler from scikit-learn. The LSTM (Long Short-Term Memory) model is used for predicting future air quality, leveraging its ability to learn time-dependent data for accurate forecasting.
 
 Los Angeles, California, United States 
+
 Poor Air quality in Los Angeles, CA was predicted to increase through 2024. Los Angeles continues to receive poor grades in terms of air quality. Carbon Dioxide (CO) continues to increase due to its high amount of vehicles including cars and airplanes – Los Angeles Aiport (LAX). Another critical factor for its poor air quality is that about 40% of imports arrive at the Los Angeles port. 
 
 ![LA-USA](https://github.com/LRosal3s/Rosales-Luis-AirQ-Hazy-Project/assets/143309517/d01c417d-816c-475a-8714-5100a968c4aa)
@@ -21,6 +22,7 @@ Poor Air quality in Los Angeles, CA was predicted to increase through 2024. Los 
 
 
 Jakarta, Indonesia
+
 Jakarta is experiencing one of the worst air quality in the world. Its air quality measurements of CO, O3, PM10, and PM2.5 are forecasted to increase – the increase is reaching serious unhealthy levels of air quality. Jakarta is host to many coal-fired power plants (CFPP) which has a detrimental effect on air quality. Even so, in 2022 CFPP’s in Indonesia caused caused 10,500 deaths in Indonesia. [Source]
 
 ![JK-IN](https://github.com/LRosal3s/Rosales-Luis-AirQ-Hazy-Project/assets/143309517/e5459bc0-b7b3-4fac-aa20-aae97f486f5c)
@@ -29,6 +31,7 @@ Jakarta is experiencing one of the worst air quality in the world. Its air quali
 
 
 Paris, France
+
 France set up a road map to reduce its carbon emissions by 40% by 2030 beginning in 1990. France introduced its roadmap: The National Low-Carbon Strategy (Stratégie Nationale Bas-Carbone SNBC) – the roadmap provides guidelines to reduce carbon emissions in different industries. This roadmap is working for France based on the prediction shown below. Emissions are decreasing drastically and are maintained at a healthy level. 
 
 An interesting fact about the upcoming Olympics 2024 is that the Seine River has been cleaned to host swimming competitions. It has been 80 years since it was safe to swim in the Seine! – now, clean air and water in Paris! 
