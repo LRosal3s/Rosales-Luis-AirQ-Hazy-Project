@@ -1,7 +1,7 @@
 Luis Rosales, Joseph-Levi Custer - ECE 5984 - Dec 2023
-
+**********************************************************************************************************************************
 Title: “Haziness In The Air”, Air Quality Predictions
-
+**********************************************************************************************************************************
 Project’s Function: The purpose of our model is to forecast air quality in various cities globally for the years 2023 to 2025, utilizing historical pollution data to identify trends and anticipate future air quality conditions. By analyzing patterns in key pollutants like PM2.5, PM10, carbon monoxide, and ozone, the model aims to provide accurate predictions that can inform public health initiatives, environmental policies, and urban planning strategies. 
 
 Dataset: The dataset in question aggregates air pollution data from three global cities including Los Angeles, Paris, and Jakarta, spanning from January 1, 2020, to September 1, 2023. It focuses on key pollutants like PM2.5, PM10, carbon monoxide, and ozone, offering a comprehensive view of air quality trends in these urban areas. Data is sourced via the OpenWeatherMap's Air Pollution History API and is structured to include city, country, date, time, and pollutant levels, ultimately compiled into a DataFrame and stored as a CSV file in an AWS S3 bucket.
@@ -11,6 +11,7 @@ Pipeline / Architecture: The project utilizes Apache Airflow for workflow manage
 Data Quality Assessment: The data quality is assessed by checking for completeness, accuracy, and consistency. Specific focus is given to handling missing or anomalous values, particularly in the O3 column, and ensuring the dataset is up-to-date and reflective of true air quality conditions.
 
 Data Transformation Models use: The project employs data transformations to handle missing values and scale features using MinMaxScaler from scikit-learn. The LSTM (Long Short-Term Memory) model is used for predicting future air quality, leveraging its ability to learn time-dependent data for accurate forecasting.
+**********************************************************************************************************************************
 
 Los Angeles, California, United States 
 
@@ -20,6 +21,7 @@ Poor Air quality in Los Angeles, CA was predicted to increase through 2024. Los 
 
 ![chrome_hQXqvFGIps](https://github.com/LRosal3s/Rosales-Luis-AirQ-Hazy-Project/assets/143309517/8673addb-c82a-44c8-9519-b17b25bbf02b)
 
+**********************************************************************************************************************************
 
 Jakarta, Indonesia
 
@@ -29,6 +31,7 @@ Jakarta is experiencing one of the worst air quality in the world. Its air quali
 
 ![chrome_Qyjhwy2mYM](https://github.com/LRosal3s/Rosales-Luis-AirQ-Hazy-Project/assets/143309517/98f8539c-36dc-4e65-acf9-8c9abb0e3348)
 
+**********************************************************************************************************************************
 
 Paris, France
 
@@ -40,9 +43,9 @@ An interesting fact about the upcoming Olympics 2024 is that the Seine River has
 
 ![chrome_yogEuoUn85](https://github.com/LRosal3s/Rosales-Luis-AirQ-Hazy-Project/assets/143309517/02d0a8b5-0be8-437f-b997-d612ec28aa2c)
 
-
+**********************************************************************************************************************************
 Thorough Investigation: Our "Hazy Skies" project, while successful in making predictions, faces accuracy challenges with R^2 scores between 0.30 and 0.50 across different cities, indicating a need for improvement. A key step forward is to significantly extend the dataset, potentially incorporating 30-50 years of historical data for each city to enhance the model's accuracy. Additionally, the project encountered computational limitations with AWS, as running the entire pipeline in Apache Airflow took 30-40 minutes. Therefore, the immediate focus should be on acquiring more comprehensive data and optimizing computational resources to train the model more effectively.
-
+**********************************************************************************************************************************
 Screenshots:
 
 Below are screenshots of the different iterations that were performed in Apache Airflow during this project. 
